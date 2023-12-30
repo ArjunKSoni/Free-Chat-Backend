@@ -30,7 +30,7 @@ const server = app.listen(port, (err) => {
 })
 const io = require('socket.io')(server, {
     cors: {
-        origin: "https://free-chat-five.vercel.app/chatroom",
+        origin: "https://free-chat-five.vercel.app",
         methods: ["GET", "POST"]
     }
 });
